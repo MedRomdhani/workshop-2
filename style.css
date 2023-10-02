@@ -40,16 +40,21 @@ header a:hover {
   color: #fed330;
 }
 .head{
+  display: flex;
+  justify-content: center;
   height: 600px;
-  padding: 80px 20px 0px;
+  padding: 100px 0px;
   color: white;
   text-align: center;
   background: url(./images/frame.jpg) center center/cover;
   overflow: auto;
 }
+.content{
+  max-width: 800px;
+}
 
 .head h1 , p {
-  padding: 20px;
+  margin-bottom: 20px;
 }
 .head h1{
   font-size: 48px;
@@ -61,13 +66,47 @@ header a:hover {
 .head p{
   font-size: 28px;
 }
+.offer{
+  padding: 80px 20px 20px;
+  height: fit-content;
+}
+.offer h1{
+  font-weight: normal;
+  font-size: 32px;
+}
 
+.offer-examples{
+  display: flex;
+  justify-content: center;
+}
+.offer-example{
+  min-width :10vw;
+  max-width: 30vw;
+  height: auto;
+  margin: 50px 15px;
+  background-color: white;
+  height: max-content;
+}
 
+.offer-example img{
+  width: 100%;
+}
+.description{
+  padding: 30px;
+  text-align: center;
+}
+
+.separation{
+  background-color: #333;
+  height: 2px;
+  width: 50px;
+  margin: 0px auto 20px;
+}
 
 footer {
   height: 180px;
   background-color: #444;
   color: white;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 60px;
 }
