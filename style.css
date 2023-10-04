@@ -42,8 +42,8 @@ header a:hover {
 .head{
   display: flex;
   justify-content: center;
-  height: 600px;
-  padding: 100px 0px;
+  height: 1000px;
+  padding: 300px 0px;
   color: white;
   text-align: center;
   background: url(./images/frame.jpg) center center/cover;
@@ -102,7 +102,39 @@ header a:hover {
   width: 50px;
   margin: 0px auto 20px;
 }
+/* team */
+.team{
+  padding: 50px 0px;
+  display: flex;
+  width: auto;
+  height: 750px;
+}
+.team-img{
+  background: url(./images/team.jpg) center center/cover;
+  width: 50%;
+  height: 100%;
+}
+.team-text{
+  color: white;
+  background-color: #333;
+  padding: 50px;
+  width: 50%;
+  overflow: auto;
+}
+.team-text span{
+  color: #fed330;
+  font-weight: normal;
+}
 
+.team-text p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 20px 0px;
+  line-height: 30px;
+}
+/* contact */
+
+/* footer */
 footer {
   height: 180px;
   background-color: #444;
