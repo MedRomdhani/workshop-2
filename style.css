@@ -70,29 +70,13 @@ header a:hover {
   padding: 80px 20px 20px;
 }
 
-.element{
-  display: flex;
-  justify-content: center;
-  background-color: white;
-  align-items: center;
-  padding: 20px;
-}
+
 .tittle{
   font-weight: normal;
   font-size: 32px;
   margin-bottom: 30px;
 }
- .element p{
-  width: 0.8cap;
-}
-.element-img{
-  width: 0.2cap;
-  margin: 0px 30px;
-} 
-.element-img img{
-  width: 50px;
-  border-radius: 40%;
-}
+
 
 .offer-examples{
   display: flex;
@@ -151,6 +135,36 @@ header a:hover {
   padding: 20px 0px;
   line-height: 30px;
 }
+.element p{
+  width: 0.8cap;
+}
+.element-img{
+  width: 0.2cap;
+  margin: 0px 30px;
+} 
+.person-1, .person-2{
+  width: 50px;
+  border-radius: 100%;
+}
+.house-3{
+  width: 50px;
+  border-radius: 40%;
+}
+.element i {
+  color: black;
+  font-size: 22px;
+}
+
+.element{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  padding: 20px 10px;
+  margin: 20px 0px;
+}
+
+
 /* contact */
 
 /* footer */
