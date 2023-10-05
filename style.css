@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   font-family: 'Montserrat', sans-serif;
 }
+
 .container {
   background-color: #eeeeee;
 }
@@ -17,11 +19,13 @@ header {
   line-height: 3em;
   color: white;
 }
-i{
+
+header i {
   color: #fed330;
   font-size: 25px;
 }
-header span{
+
+header span {
   font-family: 'Long Cang', cursive;
   font-size: 48px;
 }
@@ -31,7 +35,7 @@ a {
 }
 
 header a {
-  float:right;
+  float: right;
   color: white;
   padding: 0px 10px;
 }
@@ -39,7 +43,8 @@ header a {
 header a:hover {
   color: #fed330;
 }
-.head{
+
+.head {
   display: flex;
   justify-content: center;
   height: 1000px;
@@ -49,41 +54,49 @@ header a:hover {
   background: url(./images/frame.jpg) center center/cover;
   overflow: auto;
 }
-.content{
+
+.content {
   max-width: 800px;
 }
 
-.head h1 , p {
+.head h1,
+p {
   margin-bottom: 20px;
 }
-.head h1{
+
+.head h1 {
   font-size: 48px;
 }
-.head span{
+
+.head span {
   color: #fed330;
   font-weight: normal;
 }
-.head p{
+
+.head p {
   font-size: 28px;
 }
-.offer , .elements{
+
+.offer,
+.elements {
   padding: 80px 20px 20px;
 }
 
 
-.tittle{
+.tittle {
   font-weight: normal;
   font-size: 32px;
   margin-bottom: 30px;
 }
 
 
-.offer-examples{
+.offer-examples {
   display: flex;
   justify-content: center;
 }
-.offer-example{
-  min-width :10vw;
+
+.offer-example {
+  min-width: 10vw;
   max-width: 30vw;
   height: auto;
   margin: 50px 15px;
@@ -91,71 +104,82 @@ header a:hover {
   height: max-content;
 }
 
-.offer-example img{
+.offer-example img {
   width: 100%;
 }
-.description{
+
+.description {
   padding: 30px;
   text-align: center;
 }
 
-.separation{
+.separation {
   background-color: #333;
   height: 2px;
   width: 50px;
   margin: 0px auto 20px;
 }
+
 /* team */
-.team{
+.team {
   padding: 50px 0px;
   display: flex;
   width: auto;
   height: 750px;
 }
-.team-img{
+
+.team-img {
   background: url(./images/team.jpg) center center/cover;
   width: 50%;
   height: 100%;
 }
-.team-text{
+
+.team-text {
   color: white;
   background-color: #333;
   padding: 50px;
   width: 50%;
   overflow: auto;
 }
-.team-text span{
+
+.team-text span {
   color: #fed330;
   font-weight: normal;
 }
 
-.team-text p{
+.team-text p {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   padding: 20px 0px;
   line-height: 30px;
 }
-.element p{
+
+.element p {
   width: 0.8cap;
 }
-.element-img{
+
+.element-img {
   width: 0.2cap;
   margin: 0px 30px;
-} 
-.person-1, .person-2{
+}
+
+.person-1,
+.person-2 {
   width: 50px;
   border-radius: 100%;
 }
-.house-3{
+
+.house-3 {
   width: 50px;
   border-radius: 40%;
 }
+
 .element i {
   color: black;
   font-size: 22px;
 }
 
-.element{
+.element {
   display: flex;
   justify-content: center;
   background-color: white;
@@ -166,6 +190,47 @@ header a:hover {
 
 
 /* contact */
+.contact {
+  height: 800px;
+  background-color: #333;
+  padding: 200px 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contact h1 {
+  font-weight: normal;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+input {
+  min-width: 600px;
+  height: 60px;
+  padding: 10px 10px;
+  background-color: #333;
+  border: none;
+  border-bottom: solid 2px #444;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.contact span {
+  color: #fed330;
+  width: auto;
+}
+
+button {
+  color: white;
+  background-color: #f1c40e;
+  padding: 15px 30px;
+  border-radius: 50px;
+  margin: 50px;
+}
 
 /* footer */
 footer {
